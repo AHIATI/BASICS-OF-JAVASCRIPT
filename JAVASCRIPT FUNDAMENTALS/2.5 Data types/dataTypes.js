@@ -9,7 +9,11 @@ boolean, null for null variables and undefined and symbol the undefined is when 
   
 
  let name = "Ahiati";
+ let x = 5;
+ alert(x++);
+ alert(x);
 
  alert(`Hello ${name}`);
  alert( `hello ${"name"}`);
  alert (`Hello ${1}`);
+ 
